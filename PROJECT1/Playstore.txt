@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to Addicting Game</h1>
+            <p class="lead">Your ultimate destination for the latest games and updates</p>
+            <hr class="my-4">
+            <p>Explore our collection of games and find your next adventure</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+        <h2 class="text-center" style="color: aliceblue;">Featured Game</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.wVQitwK6CYAyF3ErIKF70wHaD4?rs=1&pid=ImgDetMain" class="card-img-top" alt="Featured Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Rise of the king</h5>
+                        <p class="card-text">Lead legions of elves and men in epic battles!crush enimies! Seize the throne!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mt-5" style="color: aliceblue;">Game List</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp6334469.png" class="card-img-top" alt="Game 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ashphalt 9: Legends</h5>
+                        <p class="card-text">Sports racing game to drift on the streets. Play online solo & multiplayer mode</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/1260302.jpg" class="card-img-top" alt="Game 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Fire</h5>
+                        <p class="card-text">Season 6 is out now! Survive and Dominate in Multiplayer FPS</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/7447747.jpg" class="card-img-top" alt="Game 3">
+                    <div class="card-body">
+                        <h5 class="card-title">BGMI</h5>
+                        <p class="card-text">No Time? No worries BGMI Quick game modes and Mecha Fusion Mode got you </p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/3LR0PWn43xw/maxresdefault.jpg" class="card-img-top" alt="Game 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Temple Run</h5>
+                        <p class="card-text">Run for your life!</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.ph0ffe3I7h9W5_9eSv0X_gAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="Game 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Clash of Clans</h5>
+                        <p class="card-text">Epic combat strategy game. Build your village, train your troops & go to battle!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp8116675.jpg" class="card-img-top" alt="Game 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Subway surfers</h5>
+                        <p class="card-text">Help Jake, Tricky & Fresh escape from the grumpy Inspector and his dog!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp8476853.jpg" class="card-img-top" alt="Game 7">
+                    <div class="card-body">
+                        <h5 class="card-title">UNO!</h5>
+                        <p class="card-text">Classic Game at your Fingertips</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/_oWPA5v045c/maxresdefault.jpg" class="card-img-top" alt="Game 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrom Pool:Disc Game</h5>
+                        <p class="card-text">Relieve your childhood memories in this hit multiplayer</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp2347563.jpg" class="card-img-top" alt="Game 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Candy Crush Saga</h5>
+                        <p class="card-text">Sugary sweet games for candy fiends</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website - Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to Addicting Game</h1>
+            <p class="lead">Your ultimate destination for the latest games and updates</p>
+            <hr class="my-4">
+            <p>Explore our collection of games and find your next adventure</p>
+            <a class="btn btn-primary btn-lg" href="games.html" role="button">Learn more</a>
+        </div>
+
+        <h2 class="text-center" style="color: aliceblue;">Featured Game</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.wVQitwK6CYAyF3ErIKF70wHaD4?rs=1&pid=ImgDetMain" class="card-img-top" alt="Featured Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Rise of the king</h5>
+                        <p class="card-text">Lead legions of elves and men in epic battles! Crush enemies! Seize the throne!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+GAMES.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website - Games</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center" style="color: aliceblue;">Game List</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp6334469.png" class="card-img-top" alt="Ashphalt 9: Legends">
+                    <div class="card-body">
+                        <h5 class="card-title">Ashphalt 9: Legends</h5>
+                        <p class="card-text">Sports racing game to drift on the streets. Play online solo & multiplayer mode</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/1260302.jpg" class="card-img-top" alt="Free Fire">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Fire</h5>
+                        <p class="card-text">Season 6 is out now! Survive and Dominate in Multiplayer FPS</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/7447747.jpg" class="card-img-top" alt="BGMI">
+                    <div class="card-body">
+                        <h5 class="card-title">BGMI</h5>
+                        <p class="card-text">No Time? No worries BGMI Quick game modes and Mecha Fusion Mode got you </p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/3LR0PWn43xw/maxresdefault.jpg" class="card-img-top" alt="Temple Run">
+                    <div class="card-body">
+                        <h5 class="card-title">Temple Run</h5>
+                        <p class="card-text">Run for your life!</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                   <img src="data:image/jpeg;base64,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" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Hill Climb Racing</h5>
+                        <p class="card-text">Use coins to build parts and unlock customizations</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.9MzI2UQxGUJrkn7ytzAQ5gHaEK?w=318&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="card-img-top" alt="UNO!">
+                    <div class="card-body">
+                        <h5 class="card-title">UNO!</h5>
+                        <p class="card-text">Classic Game at your Fingertips</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.ph0ffe3I7h9W5_9eSv0X_gAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="COC!">
+                    <div class="card-body">
+                        <h5 class="card-title">COC!</h5>
+                        <p class="card-text">Epic combat strategy game. Build your village, train your troops & go to battle!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/_oWPA5v045c/maxresdefault.jpg" class="card-img-top" alt="Carrom Pool: Disc Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrom Pool: Disc Game</h5>
+                        <p class="card-text">Relive your childhood memories in this hit multiplayer</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp2347563.jpg" class="card-img-top" alt="Candy Crush Saga">
+                    <div class="card-body">
+                        <h5 class="card-title">Candy Crush Saga</h5>
+                        <p class="card-text">Sugary sweet games for candy fiends</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+ABOUT.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website - About</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="color: aliceblue;">
+        <div class="text-center">
+            <h1 class="display-4">About Addicting Game</h1>
+            <p class="lead">Learn more about our mission, vision, and team.</p>
+            <hr class="my-4">
+            <p>We are dedicated to providing the best gaming experience for our users. Here’s a bit more about who we are and what drives us.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Our Mission</h3>
+                <p>Our mission is to bring joy and excitement to gamers all over the world by offering a wide variety of engaging and entertaining games. We strive to create a platform where players of all ages can find something they love and enjoy.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Our Vision</h3>
+                <p>We envision a world where everyone can experience the joy of gaming. Our goal is to become the go-to destination for gamers seeking high-quality, fun, and safe gaming experiences. We aim to continuously innovate and improve our platform to meet the evolving needs of our community.</p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>Our Team</h3>
+                <p>We are a passionate team of gamers, developers, and designers who are committed to delivering the best gaming experience possible. Our diverse backgrounds and shared love for gaming drive us to push the boundaries of what's possible in the gaming industry.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Join Us</h3>
+                <p>Interested in joining our team? We are always on the lookout for talented individuals who share our passion for gaming. Check out our careers page for current openings and join us in our mission to create amazing gaming experiences.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+CONTACT.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website - Contact</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="color: aliceblue;">
+        <div class="text-center">
+            <h1 class="display-4">Contact Addicting Game</h1>
+            <p class="lead">We'd love to hear from you!</p>
+            <hr class="my-4">
+            <p>Feel free to reach out to us with any questions, feedback, or suggestions. We're here to help!</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact Information</h3>
+                <p>Email: manieshdh1@gmail.com</p>
+                <p>Phone: +91 9361949062</p>
+                <p>Address: Ebbanad Ooty 641 104</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Contact Form</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+CSS
+
+
+body {
+    background-color: black;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0)100%,rgba(255,255,255,0)100%),url(https://wallpapers.com/images/file/green-and-black-background-6o7fi4exq0rbsvtw.jpg);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: transparent;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
